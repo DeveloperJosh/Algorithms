@@ -1,3 +1,7 @@
+//#!/usr/bin/env swift
+
+import Foundation
+
 struct boopTest {
     var notSoSecret = "Hello world!"
     private var numericalSecret = 140
