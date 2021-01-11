@@ -1,6 +1,6 @@
 class Main {
   public static double jaroDistance(String s, String t) {
-		int sLen = s.length();
+	int sLen = s.length();
         int tLen = t.length();
  
         if (sLen == 0 && tLen == 0) return 1;
@@ -27,7 +27,7 @@ class Main {
             }
         }
 
-				if (matches == 0) return 0;
+	if (matches == 0) return 0;
  
         int k = 0;
         for (int i = 0; i < sLen; i++) {
@@ -44,8 +44,8 @@ class Main {
 
 
 	public static void main(String[] args) {
-		System.out.println(jaroDistance("JOHN", "DOE"));
-    System.out.println(jaroDistance("JOHN", "SNOW"));
-    System.out.println(jaroDistance("JELLYFISH", "SMELLYFISH"));
-	}
+    		System.out.println(jaroDistance("JOHN", "DOE"));
+    		System.out.println(jaroDistance("JOHN", "SNOW"));
+    		System.out.println(jaroDistance("JELLYFISH", "SMELLYFISH"));
+ 	}
 }
